@@ -1,6 +1,5 @@
 steps:
-  - command: "ifconfig"
-  - command: "whoami"
-  - command: "netstat -antp"
-  - command: "docker ps -a"
-  
+  - command: ifconfig
+  - command: whoami
+  - command: netstat -antp
+  - command: docker ps -a
