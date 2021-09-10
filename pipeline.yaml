@@ -1,0 +1,4 @@
+steps:
+  - command: "ifconfig"
+  - command: "whoami"
+  - command: "docker ps -a"
