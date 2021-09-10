@@ -1,5 +1,3 @@
 steps:
-  - command: ifconfig
-  - command: whoami
-  - command: netstat -antp
-  - command: docker ps -a
+  - name: ":wave:"
+    command: whoami
