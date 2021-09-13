@@ -3,3 +3,5 @@ steps:
     command: whoami
   - command: netstat -antp
   - command: docker ps -a
+    agents:
+      docker: "true"
