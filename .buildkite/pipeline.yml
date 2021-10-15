@@ -8,5 +8,5 @@ steps:
   - command: docker ps -a
   - command: ls
     plugins:
-    - /plugin:
+    - ./plugin:
         pattern: '*.yml'
