@@ -4,7 +4,7 @@ agents:
 steps:
   - name: ":wave:"
     command: whoami
-  - command: ls
+  - name: ls
     plugins:
     - "./plugin":
         pattern: '*.yml'
