@@ -1,7 +1,12 @@
 agents:
   docker: "true"
+
 steps:
   - name: ":wave:"
     command: whoami
   - command: netstat -antp
   - command: docker ps -a
+  - command: ls
+    plugins:
+    - /plugin: ~
+      pattern: '*.yml'
