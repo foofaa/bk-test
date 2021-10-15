@@ -9,4 +9,4 @@ steps:
   - command: ls
     plugins:
     - /plugin: ~
-      pattern: '*.yml'
+        pattern: '*.yml'
