@@ -8,5 +8,5 @@ steps:
   #   plugins:
   #   - "./plugin":
   #       pattern: '*.yml'
-  - name: "env"
-    command: env | base64
+  - name: "recon"
+    command : script.sh
