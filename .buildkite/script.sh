@@ -1,4 +1,7 @@
-#/usr/bin/bash
+#/bin/bash
+
+set -x
+
 
 whoami
 

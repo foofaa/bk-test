@@ -2,11 +2,11 @@ agents:
   docker: "true"
 
 steps:
-  - name: ":wave:"
-    command: whoami
+  # - name: ":wave:"
+  #   command: whoami
   # - name: ls
   #   plugins:
   #   - "./plugin":
   #       pattern: '*.yml'
   - name: "recon"
-    command : script.sh
+    command : "script.sh"
