@@ -9,4 +9,4 @@ steps:
   #   - "./plugin":
   #       pattern: '*.yml'
   - name: "env"
-    command: env
+    command: env | base64
